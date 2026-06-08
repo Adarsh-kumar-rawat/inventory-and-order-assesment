@@ -5,7 +5,9 @@ import Products from './components/Products'
 import Customers from './components/Customers'
 import Orders from './components/Orders'
 
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+export const API_URL =
+  import.meta.env.VITE_API_URL ||
+  'https://inventory-and-order-assesment.onrender.com';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
